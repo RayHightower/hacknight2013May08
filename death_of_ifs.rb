@@ -1,3 +1,14 @@
+class QuitCommand
+  def match?(input)
+    input == 'q'
+  end
+
+  def execute
+    puts 'Goodbye'
+  end
+end
+
+
 def process(input)
   if input == 'q'
     puts 'Goodbye'
@@ -17,4 +28,7 @@ process 'help'
 
 
 
+j = QuitCommand.new
+puts j
+j.execute
 
