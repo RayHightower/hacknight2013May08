@@ -21,21 +21,7 @@ def process(input)
   end
 end
 
-# process 'q'
-# process 'tweet'
-# process 'dm'
-# process 'help'
-# 
-# 
-# 
 j = QuitCommand.new
-# puts jj.execut
-# j.execute
-# j.match?('a')
-# j.match?('q')
-
-
-# j = 'q'
 puts j.match?('q')
 puts j.match?('8')
 
